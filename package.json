@@ -1,10 +1,10 @@
 {
-	"name": "bun-monorepo",
+	"name": "interviewpro",
 	"version": "0.0.1",
-	"description": "Elysia Backend + React Native + Next.js",
+	"description": "Elysia Backend + React Native",
 	"workspaces": ["apps/*", "packages/*"],
 	"scripts": {
-		"dev": "concurrently -n 'backend,mobile,web' -c '#007755,#2f6da3,#550077' 'cd apps/backend && bun dev' 'cd apps/mobile && bun ios' 'cd apps/web && bun --bun run dev'",
+		"dev": "concurrently -n 'backend,mobile' -c '#007755,#550077' 'cd apps/backend && bun dev' 'cd apps/mobile && bun dev:web'",
 		"typecheck": "bunx --bun tsc",
 		"lint": "biome lint .",
 		"lint:fix": "biome lint --apply .",
