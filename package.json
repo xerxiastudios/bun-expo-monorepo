@@ -12,7 +12,6 @@
 		"format:fix": "biome format --write ."
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.2.2",
 		"concurrently": "^6.2.0"
 	}
 }
