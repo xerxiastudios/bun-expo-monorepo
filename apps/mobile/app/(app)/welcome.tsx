@@ -2,7 +2,6 @@ import { useRouter } from 'expo-router'
 import React from 'react'
 import { View } from 'react-native'
 
-import { Image } from '~/components/image'
 import { SafeAreaView } from '~/components/safe-area-view'
 import { Button } from '~/components/ui/button'
 import { Text } from '~/components/ui/text'

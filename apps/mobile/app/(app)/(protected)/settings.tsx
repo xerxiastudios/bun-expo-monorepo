@@ -1,4 +1,5 @@
 import { View } from 'react-native'
+import { ThemeToggle } from '~/components/ThemeToggle'
 
 import { Button } from '~/components/ui/button'
 import { Text } from '~/components/ui/text'
@@ -15,6 +16,7 @@ export default function Settings() {
       <Button className="w-full" size="default" variant="default" onPress={signOut}>
         <Text>Sign Out</Text>
       </Button>
+      <ThemeToggle />
     </View>
   )
 }
