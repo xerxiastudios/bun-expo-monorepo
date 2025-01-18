@@ -18,8 +18,13 @@ export default function Home() {
         size="default"
         onPress={() => router.push('/(app)/modal')}
       >
-        <Text>Open Modal</Text>
+        <Text>Open fasdbhModal</Text>
       </Button>
+
+      <Text className="">Hfasello</Text>
+      <Text className="text-2xl font-Poppins-Regular">Hfasello</Text>
+      <Text className="text-2xl font-bold ">Hfasello</Text>
+      <Text className="text-2xl font-thin">Hfasello</Text>
     </View>
   )
 }
